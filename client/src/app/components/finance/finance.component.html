@@ -1,0 +1,16 @@
+<mat-card class="example-card">
+  <div class="table" *ngIf="finance">
+    <span class="number">№</span>
+    <span class="price">Сумма</span>
+    <span class="description">Описание</span>
+    <span class="date">Дата</span>
+    <hr>
+    <div class="col table" *ngFor="let transaction of finance">
+      <span class="number">{{transaction.id}}</span>
+      <span class="price">{{transaction.price}}₽</span>
+      <span class="description"><pre>{{transaction.description}}</pre></span>
+      <span class="date">{{transaction.created_at | date :'dd:MMM:yyyy hh-mm-ss z'}}</span>
+      <hr>
+    </div>
+  </div>
+</mat-card>

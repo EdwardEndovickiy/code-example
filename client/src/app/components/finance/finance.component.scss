@@ -1,0 +1,33 @@
+.table {
+  padding: 20px;
+  display: unset;
+}
+
+.col {
+  width: 100%;
+  height: min-content;
+}
+
+.number {
+  width: 5%;
+  display: inline-block;
+}
+
+.price {
+  width: 20%;
+  display: inline-block;
+}
+
+.description {
+  width: 50%;
+  display: inline-block;
+}
+
+.date {
+  width: 10%;
+  display: inline-block;
+}
+
+pre {
+  display: inline-block;
+}

@@ -1,0 +1,14 @@
+<mat-card class="example-card">
+  <div class="table" *ngIf="plans">
+    <span class="number">№</span>
+    <span class="price">Сроки</span>
+    <span class="description">Описание</span>
+    <hr>
+    <div class="col table" *ngFor="let plan of plans">
+      <span class="number">{{plan.id}}</span>
+      <span class="price">{{plan.deadline | date :'dd:MMM:yyyy hh-mm-ss z'}}</span>
+      <span class="description"><pre>{{plan.description}}</pre></span>
+      <hr>
+    </div>
+  </div>
+</mat-card>

@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": { "port": 3000 },
+    "secure": false
+  },
+  "/system": {
+    "target": { "port": 3000 },
+    "secure": false
+  }
+}
