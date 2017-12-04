@@ -1,9 +1,11 @@
 # Code-Example
-It's a single page app. Implemented an example of the connection between client and server using API(GET requests). To edit the database pre-installed the ActiveAdmin panel.
+It's a single page app. Implemented an example of the connection between client and server using API(GET requests). To edit the database pre-installed the *ActiveAdmin* panel.
 
-Visit http://localhost:3000/admin and log in using:
-User: admin@example.com
-Password: password
+- Visit http://localhost:3000/admin and log in using:
+- User: *admin@example.com*
+- Password: *password*
+
+About [ActiveAdmin](https://activeadmin.info)
 
 The basic idea was that the client can record your expenses and can make plans based on deadline
 
